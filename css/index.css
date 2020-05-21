@@ -1,0 +1,511 @@
+@font-face {
+	font-family: Source Han Sans CN;
+	src: url("font/SourceHanSansCN-Regular.ttf");
+}
+.warp {
+	width: 100%;
+}
+.container {
+	width: 960px;
+	height: 1900px;
+	background-color: rgba(255,255,255,1);
+	margin: 0 auto;
+}
+.container-title {
+	position: relative;
+	width: 960px;
+	background: url(../image/图层%203.png);
+}
+.container-title .title-img {
+	width: 99.5px;
+	height: 38px;
+	margin: 15.5px 662px 290.5px 198.5px;
+}
+.container-title .title-list {
+	position: absolute;
+	display: flex;
+	left: 670.5px;
+	top: 28.5px;
+	width:98px;
+	height:8px;
+	font-size:8px;
+	font-family:Source Han Sans CN;
+	font-weight:400;
+	color:rgba(255,255,255,1);
+	line-height:11px;
+}
+.container-title .title-list li {
+	justify-content: space-between;
+	transform: scale(.6);
+}
+.container-title .title-first h3 {
+	position: absolute;
+	left: 199px;
+	top: 133px;
+	width:197px;
+	height:23px;
+	font-size:22px;
+	font-family:Source Han Sans CN;
+	font-weight:400;
+	color:rgba(255,255,255,1);
+	line-height:28px;
+}
+.container-title .title-first p {
+	position: absolute;
+	left: 199px;
+	top: 170.5px;
+	width:200px;
+	height:12px;
+	font-size:12px;
+	font-family:Source Han Sans CN;
+	font-weight:400;
+	color:rgba(255,255,255,1);
+	line-height:14px;
+	opacity:0.8;
+}
+.container-title .title-first .img1 {
+	position: absolute;
+	left: 197px;
+	top: 211.5px;
+	width: 67.5px;
+	height: 20px;
+}
+.container-title .title-first .img2 {
+	position: absolute;
+	left: 281.5px;
+	top: 211.5px;
+	width: 67.5px;
+	height: 20px;
+}
+.container-title .title-first .img3 {
+	position: absolute;
+	left: 501.5px;
+	top: 56px;
+	width: 164px;
+	height: 308.5px;
+}
+.container-title .title-first .img4 {
+	position: absolute;
+	left: 491px;
+	top: 351px;
+	width: 184.5px;
+	height: 34px;
+}
+.container-title .tablist li {
+	position: absolute;
+	top: 423px;
+	width:184px;
+	height:160px;
+	background:rgba(255,255,255,1);
+	box-shadow:2px 11px 70px 0px rgba(0,52,74,0.18);
+	border-radius:11px;
+}
+.container-title .tablist li:nth-child(1) {
+	left: 198.5px;
+}
+.container-title .tablist li:nth-child(2) {
+	left: 389px;
+}
+.container-title .tablist li:nth-child(3) {
+	left: 579.5px;
+	box-shadow:2px 11px 30px 0px rgba(0,52,74,0.18);
+}
+.container-title .tablist li h5 {
+	position: absolute;
+	left: 20px;
+	top: 46.5px;
+	width:48px;
+	height:12px;
+	font-size:12px;
+	font-family:Source Han Sans CN;
+	font-weight:400;
+	color:rgba(254,102,1,1);
+	line-height:16px;
+}
+.container-title .tablist li p {
+	position: absolute;
+	left: 19.5px;
+	top: 78px;
+	width:145px;
+	height:27px;
+	font-size:9px;
+	font-family:Source Han Sans CN;
+	font-weight:400;
+	color:rgba(102,102,102,1);
+	line-height:18px;
+	opacity:0.8;
+}
+.container-title .imgs-group img {
+	position: absolute;
+	top: 394px;
+	width: 81.5px;
+	height: 81.5px;
+	z-index: 999;
+}
+.container-title .imgs-group img:nth-child(1) {
+	left: 249px;
+}
+.container-title .imgs-group img:nth-child(2) {
+	left: 440.5px;
+}
+.container-title .imgs-group img:nth-child(3) {
+	left: 631px;
+}
+.container-title .container-fir .fir-img1 {
+	position: absolute;
+	left: 193.5px;
+	top: 648px;
+	width: 240px;
+	height: 276px;
+}
+.container-title .container-fir .fir-img2 {
+	position: absolute;
+	left: 259.5px;
+	top: 938.5px;
+	width: 184.5px;
+	height: 34px;
+}
+.container-title .container-fir h4 {
+	position: absolute;
+	left: 570px;
+	top: 731.5px;
+	width:113px;
+	height:32px;
+	font-size:14px;
+	font-family:Source Han Sans CN;
+	font-weight:400;
+	color:rgba(254,102,1,1);
+	line-height:18px;
+}
+.container-title .container-fir p {
+	position: absolute;
+	left: 570px;
+	top: 785.5px;
+	width:198px;
+	height:42px;
+	font-size:10px;
+	font-family:Source Han Sans CN;
+	font-weight:400;
+	color:rgba(102,102,102,1);
+	line-height:16px;
+	opacity:0.8;
+}
+.container-title .container-fou .fou-img1 {
+	position: absolute;
+	left: 561.5px;
+	top: 988px;
+	width: 157.5px;
+	height: 315px;
+}
+.container-title .container-fou .fou-img2 {
+	position: absolute;
+	left: 475.5px;
+	top: 1271px;
+	width: 368px;
+	height: 49px;
+}
+.container-title .container-fou h4 {
+	position: absolute;
+	left: 197.5px;
+	top: 1083px;
+	width:113px;
+	height:32px;
+	font-size:14px;
+	font-family:Source Han Sans CN;
+	font-weight:400;
+	color:rgba(254,102,1,1);
+	line-height:18px;
+}
+.container-title .container-fou p {
+	position: absolute;
+	left: 197.5px;
+	top: 1137px;
+	width:203px;
+	height:42px;
+	font-size:10px;
+	font-family:Source Han Sans CN;
+	font-weight:400;
+	color:rgba(102,102,102,1);
+	line-height:16px;
+	opacity:0.8;
+}
+.container-title .container-fx {
+	position: absolute;
+	top: 1361px;
+	background: url(../image/图层%202@2x.png);
+	width: 960px;
+	height: 377px;
+}
+.container-title .container-fx h3 {
+	margin-left: 433.5px;
+	margin-top: 35.5px;
+	width:93px;
+	height:23px;
+	font-size:22px;
+	font-family:Source Han Sans CN;
+	font-weight:400;
+	color:rgba(255,255,255,1);
+	line-height:33px;
+	text-shadow:0px 0px 6px rgba(0, 0, 0, 0.25);
+}
+.container-title .container-fx .fx-content {
+	position: relative;
+	margin-left: 234px;
+	margin-top: calc(79px - 35.5px);
+	width:493px;
+	height:243px;
+	background:rgba(255,255,255,1);
+}
+.container-title .container-fx .fx-content h4 {
+	position: absolute;
+	left: 18px;
+	top: 23px;
+	width:50px;
+	height:13px;
+	font-size:12px;
+	font-family:Source Han Sans CN;
+	font-weight:400;
+	color:rgba(240,77,43,1);
+	line-height:17px;
+}
+.container-title .container-fx .fx-content p {
+	position: absolute;
+	width:50px;
+	height:11.2px;
+	font-size:8px;
+	font-family:Source Han Sans CN;
+	font-weight:400;
+	color:rgba(143,143,143,1);
+	line-height: 14px;
+	transform: scale(.7);
+}
+.container-title .container-fx .fx-content .username {
+	left: 12px;
+	top: 56.5px;
+}
+.container-title .container-fx .fx-content span {
+	position: absolute;
+	font-size:7px;
+	font-family:Source Han Sans CN;
+	font-weight:400;
+	color:rgba(28,28,28,1);
+	line-height:14px;
+	transform: scale(.6);
+}
+.container-title .container-fx .fx-content .username-value {
+	left: 12px;
+	top: 70px;
+}
+.container-title .container-fx .fx-content .line1 {
+	position: absolute;
+	left: 18px;
+	top: 83px;
+	width: 100px;
+	height: 1px;
+}
+.container-title .container-fx .fx-content .email {
+	left: 12px;
+	top: 87.6px;
+}
+.container-title .container-fx .fx-content .email-value {
+	left: -10px;
+	top: 100.4px;
+}
+.container-title .container-fx .fx-content .line2 {
+	position: absolute;
+	left: 18px;
+	top: 113px;
+	width: 100px;
+	height: 1px;
+}
+.container-title .container-fx .fx-content .tel {
+	left: 125.6px;
+	top: 56.5px;
+}
+.container-title .container-fx .fx-content .tel-value {
+	left: 117px;
+	top: 70px;
+}
+.container-title .container-fx .fx-content .line3 {
+	position: absolute;
+	left: 127px;
+	top: 83px;
+	width: 100px;
+	height: 1px;
+}
+.container-title .container-fx .fx-content .question {
+	left: 125.6px;
+	top: 88px;
+}
+.container-title .container-fx .fx-content .question-value {
+	left: 117px;
+	top: 100px;
+}
+.container-title .container-fx .fx-content .line4 {
+	position: absolute;
+	left: 127px;
+	top: 112px;
+	width: 100px;
+	height: 1px;
+}
+.container-title .container-fx .fx-content .describe {
+	left: 14px;
+	top: 137.5px;
+}
+.container-title .container-fx .fx-content .describe-value {
+	left: -23px;
+	top: 153px;
+}
+.container-title .container-fx .fx-content .line5 {
+	position: absolute;
+	left: 14px;
+	top: 176px;
+	width: 258px;
+	height: 1px;
+}
+.container-title .container-fx .fx-content .img-end {
+	position: absolute;
+	left: 7.5px;
+	top: 187px;
+	width: 105px;
+	height: 43.5px;
+}
+.container-title .container-fx .fx-content a {
+	position: absolute;
+	left: 46px;
+	top: 196.5px;
+	width:29px;
+	height:18px;
+	font-size:9px;
+	font-family:Source Han Sans CN;
+	font-weight:400;
+	color:rgba(255,255,255,1);
+	line-height:14px;
+	transform: scale(.6);
+}
+.container-title .container-fx .content-right {
+	position: absolute;
+	left: 531px;
+	top: 102px;
+	width:196px;
+	height:243px;
+	background:linear-gradient(0deg,rgba(255,88,54,1),rgba(255,88,54,1),rgba(240,77,43,1),rgba(255,88,54,1),rgba(255,114,0,1));
+}
+.container-title .container-fx .content-right h3 {
+	margin-left: -20px;
+	margin-top: 26px;
+	width:209px;
+	height:14.4px;
+	font-size:9px;
+	font-family:Source Han Sans CN;
+	font-weight:400;
+	color:rgba(255,255,255,1);
+	line-height:17px;
+	transform: scale(.6);
+}
+.container-title .container-fx .content-right ul {
+	width:180px;
+	height:169px;
+	font-size:8px;
+	font-family:Source Han Sans CN;
+	font-weight:400;
+	color:rgba(255,255,255,1);
+	line-height:20px;
+	transform: scale(.6);
+}
+.container-title .container-fx .content-right ul li {
+	margin-bottom: 15px;
+}
+.container-title .container-fx .content-right .right-img1 {
+	position: absolute;
+	left: 18px;
+	top: 75px;
+	width: 11px;
+	height: 13px;
+}
+.container-title .container-fx .content-right .right-img2 {
+	position: absolute;
+	left: 18px;
+	top: 105.5px;
+	width: 11px;
+	height: 13px;
+}
+.container-title .container-fx .content-right .right-img3 {
+	position: absolute;
+	left: 18px;
+	top: 128.5px;
+	width: 11px;
+	height: 13px;
+}
+.container-title .container-fx .content-right .right-img4 {
+	position: absolute;
+	left: 18px;
+	top: 150px;
+	width: 11px;
+	height: 13px;
+}
+.container-title .container-six .six-img1 {
+	position: absolute;
+	left: 190px;
+	top: 1770.5px;
+	width: 121px;
+	height: 59px;
+}
+.container-title .container-six .six-img2 {
+	position: absolute;
+	left: 612.5px;
+	top: 1761px;
+	width: 68px;
+	height: 68.5px;
+}
+.container-title .container-six .six-img3 {
+	position: absolute;
+	left: 697px;
+	top: 1761px;
+	width: 68px;
+	height: 68.5px;
+}
+.container-title .container-six span {
+	position: absolute;
+	width:76.8px;
+	height:12.8px;
+	font-size:7px;
+	font-family:Source Han Sans CN;
+	font-weight:400;
+	color:rgba(102,102,102,1);
+	line-height:10px;
+	transform: scale(.6);
+}
+.container-title .container-six .six-span1 {
+	left: 612px;
+	top: 1837px;
+	font-size:7px;
+	font-family:Source Han Sans CN;
+	font-weight:400;
+	color:rgba(102,102,102,1);
+	line-height:10px;
+	transform: scale(.6);
+}
+.container-title .container-six .six-span2 {
+	left: 697px;
+	top: 1837px;
+}
+.container .bottom-img {
+	position: absolute;
+	top: 1860px;
+	width: 957px;
+	height: 1px;
+}
+.container .bottom-p {
+	position: absolute;
+	left: 850px;
+	top: 1870px;
+	width:211px;
+	height:12px;
+	font-size:7px;
+	font-family:Source Han Sans CN;
+	font-weight:400;
+	color:rgba(102,102,102,1);
+	line-height:16px;
+	transform: scale(.6);
+}
